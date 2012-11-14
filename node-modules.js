@@ -2,7 +2,7 @@ var require = __meteor_bootstrap__.require;
 var path = require("path");
 var fs = require("fs");
 
-NodeModules = {
+var NodeModules = {
   _path: null,
 
   require: function(moduleName) {
